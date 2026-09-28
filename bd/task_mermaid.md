@@ -9,10 +9,10 @@
 graph TD
     Start([Начало процесса]) --> Input[/Ввод данных/]
     Input --> Condition{Данные верны?}
-    
+
     Condition -->|Да| Process[Обработка данных]
     Condition -->|Нет| Error[/Ошибка/] --> Input
-    
+
     Process --> End([Конец])
 ```
 
