@@ -7,3 +7,4 @@ hi
 - [Markdown](/bd/md.md)
 - [Mermaid](/bd/mermaid.md)
 - [Task mermaid](/bd/task_mermaid.md)
+- [Bash CLI](/bd/bash_CLI.md)
