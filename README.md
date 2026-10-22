@@ -8,3 +8,5 @@ hi
 - [Mermaid](/bd/mermaid.md)
 - [Task mermaid](/bd/task_mermaid.md)
 - [Bash CLI](/bd/bash_CLI.md)
+- [BashScript](/bd/BashScript/BashScript.md)
+- [Git](/bd/Git.md)
