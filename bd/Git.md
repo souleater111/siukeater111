@@ -325,3 +325,98 @@ git push origin --delete test
 ```
 
 ### Слияние веток
+
+Например, ветку **anybranch** слить с **master**
+
+Переходим в ветку master
+```shell
+git switch master
+```
+и выполняем слияние 2-х веток в одну
+```shell
+git merge anybranch
+```
+
+### Файл .gitignore
+
+"Чёрный список" файлов (их расширений), которые не нужно сохранять в проекте. Обычно это фременные файлы.
+
+[A collection of .gitignore templates](GitHub - github/gitignore: A collection of useful .gitignore templates)
+
+Если папка build уже была добавлена в Git раньше, .gitignore на неё не подействует. Нужно сначала убрать её из индекса:
+```shell
+git rm -r --cached build/
+```
+```shell
+git commit -m "chore: remove build directory from tracking"
+```
+
+### Тэги
+
+Получить локальные теги:
+```shell
+git tag
+```
+Получить удалённые теги на (remote)
+```shell
+git ls-remote --tags origin
+```
+Удалить локально
+```shell
+git tag -d v0.0.1
+git tag -d v0.1.0
+git tag -d v0.1.1
+# и т.д. — перечислите все, что не нужны
+```
+Удалить на GitHub
+```shell
+git push --delete origin v0.0.1
+git push --delete origin v0.1.0
+git push --delete origin v0.1.1
+```
+Создайть тег, например для нового релиза
+
+Подготовим изменения
+```shell
+git add .
+```
+Добавим коммит
+```shell
+git commit -m "feat: adaptive theme support"
+```
+Запушить
+```shell
+git push
+```
+```shell
+git tag v0.1.0
+```
+Запушить
+```shell
+git push origin v0.1.0
+```
+
+### Дополнительная информация
+
+- [Pull Request](/content/Git/Pull_Request.md)
+
+### Внешние ресурсы по Git
+
+- [Что такое Git для Начинающих _ GitHub за 30 минут _ Git Уроки](https://rutube.ru/video/fb1165ca1e4f06a0079d9f8a58e68f5c/)
+- [Pro Git book(рус.)](https://git-scm.com/book/ru/v2)
+- []()
+- []()
+
+### Мэмы по Git
+
+![Какой-то текст](/content/Git/img/1.jpg)
+
+![Какой-то текст](/content/Git/img/2.jpg)
+
+![Какой-то текст](/content/Git/img/3.jpg)
+
+![Какой-то текст](/content/Git/img/4.jpg)
+
+![Logo](/content/Git/img/67.jpeg)
+
+
