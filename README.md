@@ -10,3 +10,8 @@ hi
 - [Bash CLI](/bd/bash_CLI.md)
 - [BashScript](/bd/BashScript/BashScript.md)
 - [Git](/bd/Git.md)
+-----------------
+- [Ai site](https://souleater111.github.io/AI_vintage-threads/)
+- [Repository](https://github.com/souleater111/AI_vintage-threads)
+-----------------
+- [Repository teacher's](https://github.com/rurewa/imfua)
