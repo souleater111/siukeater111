@@ -2,30 +2,25 @@
 <html lang="ru"> <!-- указывает на язык страницы -->
 <head> <!-- служебная информация (метатеги, кодировки, подключение внешних файлов) -->
     <meta charset="UTF-8"> <!-- кодировка для корректного отображения русского текста -->
-    <meta> <!--настройки для браузера Edge-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ширина корректная ширина на других устройствах-->
+    <meta <!--настройки для браузера Edge-->>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ширина экрана-->
     <title>Frontend</title> <!--заголовок страницы. Название вкладки браузера-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>Здравствуйте, меня зовут Дмитрий!</div>
-            <div>
-                <p>У меня есть кошка</p>
-                <ul>
-                    <li>Ей 9 лет</li>
-                    <li>Её зовут Мурка</li>
-                </ul>
-            </div>
-            <img src="./img/cat1.png" alt="#">
-        </nav>
-    </header>
+<header>
 
-    <main>
-    </main>
+</header>
+<!-- Добавили класс main тегу, чтобы связать его с вашим CSS (.main) -->
+<main class="main">
+    <!-- Добавили класс first_child через пробел всем блокам, чтобы применились размеры -->
+    <div class="first first_child">1 DIV</div>
+    <div class="second first_child">2 DIV</div>
+    <div class="third first_child">3 DIV</div>
+    <div class="fourth first_child">4 DIV</div>
+</main>
+<footer>
 
-    <footer>
-    </footer>
+</footer>
 </body>
 </html>

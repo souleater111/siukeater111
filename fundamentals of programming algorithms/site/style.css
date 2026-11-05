@@ -45,9 +45,32 @@ table {
 /* Популярные свойства для позиционирования */
 /* Отступы (внутренние и внешние) */
 
-/* Работа со шрифтами */
-header {
-	font-family: Georgia, 'Times New Roman', Arial, Helvetica, sans-serif;
-	font-size: 50px;
-	text-align: center;
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 200px;
+}
+
+
+.first_child {
+    width: 300px;
+    height: 200px;
+}
+
+.first {
+    background-color: brown;
+}
+
+.second {
+    background-color: rgb(56, 165, 42);
+}
+
+.third {
+    background-color: rgb(42, 50, 165);
+}
+
+.fourth {
+    background-color: rgb(165, 42, 159);
 }
