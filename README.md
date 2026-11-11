@@ -12,6 +12,7 @@ hi
 - [Git](/bd/Git.md)
 - [Docker](/bd/docker.md)
 - [Docker_Cheat_Sheet](/bd/Docker_Cheat_Sheet.md)
+- [Nginx](/bd/Docker/Nginx/README.md)
 -----------------
 - [Ai site](https://souleater111.github.io/AI_vintage-threads/)
 - [Repository](https://github.com/souleater111/AI_vintage-threads)
