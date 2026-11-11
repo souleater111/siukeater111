@@ -18,7 +18,7 @@ docker version
 Команда выводит сведения о клиенте и серверной части Docker. Если версии
 отображаются без ошибки подключения, значит Docker готов к работе.
 
-![Скрин версии Docker](/Nginx/docker%20version.png)
+![Скрин версии Docker](docker-version.png)
 
 
 
