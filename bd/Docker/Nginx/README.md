@@ -18,7 +18,7 @@ docker version
 Команда выводит сведения о клиенте и серверной части Docker. Если версии
 отображаются без ошибки подключения, значит Docker готов к работе.
 
-![Скрин версии Docker](/bd/Docker/Nginx/docker%20version.png)
+![Скрин версии Docker](/Nginx/docker%20version.png)
 
 
 
@@ -53,7 +53,7 @@ docker images
 только те ресурсы, которые мешают запуску контейнера с выбранным именем
 или портом.
 
-![Тут нужен скриншот вывода](/bd/Docker/Nginx/02-docker-containers.png.png)
+![Тут нужен скриншот вывода](/Nginx/02-docker-containers.png.png)
 
 ## 3. Поиск и загрузка образа Nginx
 
@@ -81,7 +81,7 @@ docker pull nginx
 docker images
 ```
 
-![Фото вывода](/bd/Docker/Nginx/03-nginx-image.png)
+![Фото вывода](/Nginx/03-nginx-image.png)
 
 ## 4. Создание и запуск контейнера
 
@@ -111,7 +111,7 @@ docker run -d --name my-nginx -p 8080:80 nginx
 docker ps
 ```
 
-[Фото вывода ps](/bd/Docker/Nginx/04-running-container.png)
+[Фото вывода ps](/Nginx/04-running-container.png)
 
 ## 5. Проверка веб-сервера в браузере
 
