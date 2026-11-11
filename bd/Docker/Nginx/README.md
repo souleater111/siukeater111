@@ -20,7 +20,7 @@ docker version
 
 ![Скрин версии Docker](/siukeater111/bd/Docker/Nginx/docker%20version.png)
 
-Вставьте сюда скриншот терминала с результатом команды `docker version`.
+
 
 ## 2. Проверка текущих контейнеров и образов
 
@@ -53,10 +53,7 @@ docker images
 только те ресурсы, которые мешают запуску контейнера с выбранным именем
 или портом.
 
-**Место для изображения 2 --- `02-docker-containers.png`**
-
-Добавьте скриншот вывода `docker ps -a`. На нём должен быть виден список
-контейнеров (если список пустой --- это тоже нормально).
+![Тут нужен скриншот вывода](/siukeater111/bd/Docker/Nginx/02-docker-containers.png.png)
 
 ## 3. Поиск и загрузка образа Nginx
 
@@ -84,10 +81,7 @@ docker pull nginx
 docker images
 ```
 
-**Место для изображения 3 --- `03-nginx-image.png`**
-
-Вставьте скриншот результата `docker images`, где в списке присутствует
-образ `nginx`.
+![Фото вывода](/siukeater111/bd/Docker/Nginx/03-nginx-image.png)
 
 ## 4. Создание и запуск контейнера
 
@@ -117,10 +111,7 @@ docker run -d --name my-nginx -p 8080:80 nginx
 docker ps
 ```
 
-**Место для изображения 4 --- `04-running-container.png`**
-
-Добавьте скриншот команды `docker ps`, на котором виден контейнер
-`my-nginx` со статусом `Up` и пробросом порта `8080->80`.
+[Фото вывода ps](/siukeater111/bd/Docker/Nginx/04-running-container.png)
 
 ## 5. Проверка веб-сервера в браузере
 
