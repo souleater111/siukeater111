@@ -53,7 +53,7 @@ docker images
 только те ресурсы, которые мешают запуску контейнера с выбранным именем
 или портом.
 
-![Тут нужен скриншот вывода](/Nginx/02-docker-containers.png.png)
+![Тут нужен скриншот вывода](02-docker-containers.png.png)
 
 ## 3. Поиск и загрузка образа Nginx
 
@@ -81,7 +81,7 @@ docker pull nginx
 docker images
 ```
 
-![Фото вывода](/Nginx/03-nginx-image.png)
+![Фото вывода](03-nginx-image.png)
 
 ## 4. Создание и запуск контейнера
 
@@ -111,7 +111,7 @@ docker run -d --name my-nginx -p 8080:80 nginx
 docker ps
 ```
 
-[Фото вывода ps](/Nginx/04-running-container.png)
+[Фото вывода ps](04-running-container.png)
 
 ## 5. Проверка веб-сервера в браузере
 
