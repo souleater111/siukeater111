@@ -16,6 +16,7 @@ hi
 - [Ollama](/bd/Docker/Olama/README.md)
 - [Apache](/bd/Docker/Apache/README.md)
 - [Speedtest](/bd/Docker/Speedtest/README.md)
+- [Adminer](/bd/Docker/Adminer/README.md)
 -----------------
 - [Ai site](https://souleater111.github.io/AI_vintage-threads/)
 - [Repository](https://github.com/souleater111/AI_vintage-threads)
