@@ -18,6 +18,7 @@ hi
 - [Speedtest](/bd/Docker/Speedtest/README.md)
 - [Adminer](/bd/Docker/Adminer/README.md)
 - [Apache+StaticSite](/bd/Docker/Apache+StaticSite/README.md)
+- [Redis](/bd/Docker/Redis/README.md)
 -----------------
 - [Ai site](https://souleater111.github.io/AI_vintage-threads/)
 - [Repository](https://github.com/souleater111/AI_vintage-threads)
