@@ -111,7 +111,7 @@ docker run -d --name my-nginx -p 8080:80 nginx
 docker ps
 ```
 
-[Фото вывода ps](04-running-container.png)
+![Фото вывода ps](04-running-container.png)
 
 ## 5. Проверка веб-сервера в браузере
 
@@ -128,9 +128,9 @@ docker ps
 curl http://localhost:8080/
 ```
 
-[фОТО ВЫВОДА](05-nginx-browser.png)
+![фОТО ВЫВОДА](05-nginx-browser.png)
 
-[ФОТО ВЫВОДА](06-curl-response.png)
+![ФОТО ВЫВОДА](06-curl-response.png)
 ## 6. Просмотр информации и журналов контейнера
 
 Docker позволяет получить подробную информацию о контейнере:
@@ -163,9 +163,9 @@ docker logs -f my-nginx
 
 Для выхода из режима просмотра нажмите `Ctrl+C`.
 
-[ФОТО](07-container-stats.png)
+![ФОТО](07-container-stats.png)
 
-[ФОТО](08-container-logs.png)
+![ФОТО](08-container-logs.png)
 
 ## 7. Подключение к командной оболочке контейнера
 
@@ -194,7 +194,7 @@ cat /etc/os-release
 exit
 ```
 
-[ФОТО](09-container-system.png)
+![ФОТО](09-container-system.png)
 
 ## 8. Запуск дополнительных программ внутри контейнера
 
@@ -307,7 +307,7 @@ vi /usr/share/nginx/html/index.html
 После этого обновите страницу в браузере по адресу
 <http://localhost:8080/>. Должен отобразиться новый текст.
 
-[фото](10-custom-nginx-page.png)
+![фото](10-custom-nginx-page.png)
 
 Вставьте скриншот браузера с вашей изменённой страницей. На снимке
 должен быть виден заголовок «Мой первый сайт в Docker!».
@@ -344,7 +344,7 @@ docker restart my-nginx
 docker ps -a
 ```
 
-[фото](11-container-management.png)
+![фото](11-container-management.png)
 
 Добавьте скриншот после выполнения команд управления и проверки через
 `docker ps -a`. Желательно, чтобы на нём было видно состояние
