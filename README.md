@@ -13,14 +13,7 @@ hi
 - [Docker](/bd/docker.md)
 - [Docker_Cheat_Sheet](/bd/Docker_Cheat_Sheet.md)
 -----------------
-- [Nginx](/bd/Docker/Nginx/README.md)
-- [Ollama](/bd/Docker/Olama/README.md)
-- [Apache](/bd/Docker/Apache/README.md)
-- [Speedtest](/bd/Docker/Speedtest/README.md)
-- [Adminer](/bd/Docker/Adminer/README.md)
-- [Apache+StaticSite](/bd/Docker/Apache+StaticSite/README.md)
-- [Redis](/bd/Docker/Redis/README.md)
-- [LibreDB-Studio](/bd/Docker/LibreDB-Studio/README.md)
+- [laboratory tests for BD](/bd/Docker/README.md)
 -----------------
 - [Ai site](https://souleater111.github.io/AI_vintage-threads/)
 - [Repository](https://github.com/souleater111/AI_vintage-threads)
