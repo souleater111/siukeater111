@@ -13,7 +13,7 @@ hi
 - [Docker](/bd/docker.md)
 - [Docker_Cheat_Sheet](/bd/Docker_Cheat_Sheet.md)
 -----------------
-- [laboratory tests for BD](/bd/Docker/README.md)
+- [docker lab](/bd/Docker/README.md)
 -----------------
 - [Ai site](https://souleater111.github.io/AI_vintage-threads/)
 - [Repository](https://github.com/souleater111/AI_vintage-threads)
