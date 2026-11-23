@@ -58,10 +58,13 @@ docker builder prune -a
 ```shell
 docker pull tleemcjr/metasploitable2
 ```
+![alt text](image.png)
+
 Cоздать и запустить контейнер, войти в него:
 ```shell
 docker run --name metasploitable2 -it tleemcjr/metasploitable2:latest sh -c "/bin/services.sh && bash"
 ```
+![enum4linux](image-1.png)
 
 ### 3. Управление контейнером и его образом
 

@@ -8,3 +8,4 @@
 - [LibreDB-Studio](/bd/Docker/LibreDB-Studio/README.md)
 - [Portainer](/bd/Docker/Portainer/README.md)
 - [Alt Linux в Docker](/bd/Docker/Alt_Linux/README.md)
+- [Metasploitable2](/bd/Docker/Metasploitable2/README.md)
