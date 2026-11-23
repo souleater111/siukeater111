@@ -6,5 +6,5 @@
 - [Apache+StaticSite](/bd/Docker/Apache+StaticSite/README.md)
 - [Redis](/bd/Docker/Redis/README.md)
 - [LibreDB-Studio](/bd/Docker/LibreDB-Studio/README.md)
-- [Portainer](/siukeater111/bd/Docker/Portainer/README.md)
+- [Portainer](/bd/Docker/Portainer/README.md)
 - [Alt Linux в Docker](/bd/Docker/Alt_Linux/README.md)
