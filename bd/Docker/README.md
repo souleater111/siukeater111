@@ -7,4 +7,4 @@
 - [Redis](/bd/Docker/Redis/README.md)
 - [LibreDB-Studio](/bd/Docker/LibreDB-Studio/README.md)
 - [Portainer](/bd/Docker/README.md)
-- [Alt Linux в Docker](/bd/Docker/README.md)
+- [Alt Linux в Docker](/bd/Docker/Alt_Linux/README.md)
